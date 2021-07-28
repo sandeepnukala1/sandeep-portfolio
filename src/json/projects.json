@@ -1,0 +1,30 @@
+[
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "project image",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "project image",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "project image",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "project name",
+        "description": "project description",
+        "image": "project image",
+        "github": "link to github repo",
+        "live": "link to deployed site"
+    }
+]

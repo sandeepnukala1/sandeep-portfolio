@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --title-font: serif;
+  --text-font: aerial;
+
+  --primary-color: crimson;
+  --secondary-color: white;
+  --accent-color: purple;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-font);
+}
+
+body {
+  font-family: var(--text-font);
+}
+
+/* ****************************
+Layout.js - nav
+**************************** */
+
+.nav {
+  display: flex;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav a:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+}
+
+.nav__logo {
+  font-size: 4em;
+}
+
+.nav__links {
+    display: flex;
+    font-size: 2em;
+    align-items: center;
+}
+
+
+
+/* ****************************
+Layout.js - nav
+**************************** */
+
+
+/* ****************************
+Screens Smaller than 970px
+**************************** */
+
+@media screen and (max-width: 970px){
+    .nav__links {
+        font-size: 1.25em;
+    }
+}
+
+/* ****************************
+Screens Smaller than 770px
+**************************** */
+
+@media screen and (max-width: 770px){
+
+    .nav__logo {
+        font-size: 2em;
+      }
+
+    .nav__links {
+        font-size: 1em;
+    }
+}
+
+/* ****************************
+Screens Smaller than 510px
+**************************** */
+
+@media screen and (max-width: 510px){
+
+    .nav__logo {
+        font-size: 1em;
+      }
+
+    .nav__links {
+        font-size: .6em;
+        font-weight: bolder;
+    }
+
+    .nav a {
+        padding: 2px;
+    }
+}
